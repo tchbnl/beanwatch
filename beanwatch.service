@@ -1,0 +1,9 @@
+[Unit]
+Description=beanwatch: user_beancounters logger extraordinaire
+
+[Service]
+ExecStart=/usr/local/bin/beanwatch
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
